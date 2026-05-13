@@ -31,12 +31,12 @@ export const AddCategoryModal = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="rounded-full w-9 h-9 bg-red-500">
+        <Button className="bg-red-500 rounded-full w-9 h-9">
           <Plus width={16} height={16} strokeWidth={1} />
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px] flex flex-col gap-6">
-        <div className="mb-4 flex justify-between items-center">
+        <div className="flex items-center justify-between mb-4">
           <DialogTitle>Add new category</DialogTitle>
           <DialogClose asChild>
             <Button
@@ -72,3 +72,5 @@ export const AddCategoryModal = () => {
     </Dialog>
   );
 };
+
+// saasasa
